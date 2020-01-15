@@ -32,7 +32,7 @@ public class CinemaAPIControler {
     //Gson gson = new Gson();
     private static final Logger LOGGER = LoggerFactory.getLogger(CinemaAPIControler.class);
     ObjectMapper objectMapper = new ObjectMapper();
-
+    //Pierwszy push do develop
     @RequestMapping(value = "/reservation",method = RequestMethod.POST)
     public CinemaDtoReply testCinema(@RequestBody CinemaDto cinemaDto) throws IOException {
         arr.add(cinemaDto);
