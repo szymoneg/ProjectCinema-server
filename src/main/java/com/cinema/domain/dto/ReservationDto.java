@@ -1,5 +1,7 @@
 package com.cinema.domain.dto;
 
+import java.lang.reflect.Array;
+
 public class ReservationDto {
     private int id;
     private String name;
@@ -7,8 +9,13 @@ public class ReservationDto {
     private int seat;
     private String value;
     private int id_movie;
+    private Array close_seat;
 
     public ReservationDto() {
+    }
+
+    public ReservationDto(Array close_seat) {
+        this.close_seat = close_seat;
     }
 
     public ReservationDto(int id, String name, String lastname, int seat, String value, int id_movie) {
