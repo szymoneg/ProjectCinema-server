@@ -1,30 +1,30 @@
 package com.cinema.domain.dto;
 
 import java.lang.reflect.Array;
+import java.util.ArrayList;
 
 public class ReservationDto {
     private int id;
+    private int price;
+    private ArrayList<String> standardSeats;
+    private ArrayList<String> vipSeats;
     private String name;
-    private String lastname;
-    private int seat;
-    private String value;
-    private int id_movie;
-    private Array close_seat;
+    private String surname;
+    private String email;
+    private String time;
 
     public ReservationDto() {
     }
 
-    public ReservationDto(Array close_seat) {
-        this.close_seat = close_seat;
-    }
-
-    public ReservationDto(int id, String name, String lastname, int seat, String value, int id_movie) {
+    public ReservationDto(int id, int price, ArrayList<String> standardSeats, ArrayList<String> vipSeats, String name, String surname, String email,String time) {
         this.id = id;
+        this.price = price;
+        this.standardSeats = standardSeats;
+        this.vipSeats = vipSeats;
         this.name = name;
-        this.lastname = lastname;
-        this.seat = seat;
-        this.value = value;
-        this.id_movie = id_movie;
+        this.surname = surname;
+        this.email = email;
+        this.time = time;
     }
 
     public int getId() {
@@ -35,6 +35,30 @@ public class ReservationDto {
         this.id = id;
     }
 
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public ArrayList<String> getStandardSeats() {
+        return standardSeats;
+    }
+
+    public void setStandardSeats(ArrayList<String> standardSeats) {
+        this.standardSeats = standardSeats;
+    }
+
+    public ArrayList<String> getVipSeats() {
+        return vipSeats;
+    }
+
+    public void setVipSeats(ArrayList<String> vipSeats) {
+        this.vipSeats = vipSeats;
+    }
+
     public String getName() {
         return name;
     }
@@ -43,35 +67,27 @@ public class ReservationDto {
         this.name = name;
     }
 
-    public String getLastname() {
-        return lastname;
+    public String getSurname() {
+        return surname;
     }
 
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
+    public void setSurname(String surname) {
+        this.surname = surname;
     }
 
-    public int getSeat() {
-        return seat;
+    public String getEmail() {
+        return email;
     }
 
-    public void setSeat(int seat) {
-        this.seat = seat;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public String getValue() {
-        return value;
+    public String getTime() {
+        return time;
     }
 
-    public void setValue(String value) {
-        this.value = value;
-    }
-
-    public int getId_movie() {
-        return id_movie;
-    }
-
-    public void setId_movie(int id_movie) {
-        this.id_movie = id_movie;
+    public void setTime(String time) {
+        this.time = time;
     }
 }
