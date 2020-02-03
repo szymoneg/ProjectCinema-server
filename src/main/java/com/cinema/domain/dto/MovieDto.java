@@ -1,50 +1,31 @@
 package com.cinema.domain.dto;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 
 public class MovieDto {
-    private int id;
-    private String title;
-    private String data;
-    private String show;
+    private String jsonString = null;
 
-    public MovieDto() {
+    public MovieDto(){
+        JSONParser parser = new JSONParser();
+
+        try {
+            Object obj = parser.parse(new FileReader("src/main/resources/json/films.json"));
+            JSONObject jsonObject = (JSONObject) obj;
+            jsonString = jsonObject.toJSONString();
+        }
+        catch(FileNotFoundException e){e.printStackTrace();}
+        catch(IOException e){e.printStackTrace();}
+        catch(ParseException e){e.printStackTrace();}
+        catch(Exception e){e.printStackTrace();}
     }
 
-    public MovieDto(int id, String title, String data, String show) {
-        this.id = id;
-        this.title = title;
-        this.data = data;
-        this.show = show;
+    public String getFilms() {
+        return jsonString;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getData() {
-        return data;
-    }
-
-    public void setData(String data) {
-        this.data = data;
-    }
-
-    public String getShow() {
-        return show;
-    }
-
-    public void setShow(String show) {
-        this.show = show;
-    }
 }
