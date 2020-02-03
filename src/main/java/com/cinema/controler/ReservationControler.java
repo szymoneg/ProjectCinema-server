@@ -9,6 +9,7 @@ import com.itextpdf.text.pdf.PdfWriter;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -24,6 +25,7 @@ public class ReservationControler {
     ArrayList<ReservationDto> reservationDtos = new ArrayList<>();
     Document document = new Document();
 
+    @CrossOrigin
     @RequestMapping(value = "/reservation",method = RequestMethod.POST)
     public ResponseEntity<Void> addReservation(@RequestBody ReservationDto reservationDto) throws IOException, DocumentException {
         reservationDtos.add(reservationDto);
