@@ -19,8 +19,8 @@ public class MovieControler {
     public ResponseEntity<String> showMovie() {
         LOGGER.info("Działa metoda show");
 
-        final MovieDto mavieDto = new MovieDto();
+        final MovieDto movieDto = new MovieDto();
 
-        return new ResponseEntity<>(mavieDto.getFilms(), HttpStatus.OK);
+        return new ResponseEntity<>(movieDto.getFilms(), HttpStatus.OK);
     }
 }

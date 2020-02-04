@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import javax.print.Doc;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.net.URL;
 import java.util.ArrayList;
 
 @Controller
@@ -31,11 +31,13 @@ public class ReservationControler {
         reservationDtos.add(reservationDto);
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.writeValue(new File("./src/main/resources/json/reservations.json"),reservationDtos);
-        PdfWriter writer = PdfWriter.getInstance(document,new FileOutputStream("Hello.pdf"));
+        PdfWriter writer = PdfWriter.getInstance(document,new FileOutputStream("Hello1.pdf"));
         document.open();
         document.add(new Paragraph("Hello"+reservationDto.getName()));
         document.close();
         writer.close();
+
+
 
         return new ResponseEntity<>(HttpStatus.CREATED);
     }
