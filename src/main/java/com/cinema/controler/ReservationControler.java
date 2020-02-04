@@ -23,21 +23,19 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-/**
- *   Klasa odpowiedzilna za tworzenie nowej rezerwacji
- *   funkcojnalosc tej klasy polega:
- *   -tworzenie nowej rezerwacji
- *   -zapis rezerwacji do pliku JSON
- *   -dodanie miejsc zajetych do pola w pliku films.json
- *   -stworznie biletu oraz rachunku
- *
- */
-
+/// @brief Klasa tworząca nową rezerwację.
+///
+/// Dane składowe
+/// ~~~~~~~~~~~~~~~~~~~~~~~~~.java
+/// ArrayList<ReservationDto> reservationDtos = new ArrayList<>();  // <- lista przechowująca dane do rezerwacji
+/// ~~~~~~~~~~~~~~~~~~~~~~~~~
 @Controller
 @EnableWebMvc
 public class ReservationControler {
     ArrayList<ReservationDto> reservationDtos = new ArrayList<>();
 
+    /// Funkcja dodające rezerwację, tworzy rachunek, bilet, zmienia miejsca rezerwacji w pliku films.json
+    /// @param reservationDto - pola niezbędne do stworzenia nowej rezerwacji
     @CrossOrigin
     @RequestMapping(value = "/reservation",method = RequestMethod.POST,produces={"application/json; charset=UTF-8"})
     public ResponseEntity<Void> addReservation(@RequestBody ReservationDto reservationDto) throws IOException, DocumentException {
@@ -102,6 +100,7 @@ public class ReservationControler {
         return new ResponseEntity<>(HttpStatus.CREATED);
     }
 
+    /// @return zwraca wartość int w zależnośći od godziny wyświetlania filmu
     public int timeMovie(String time){
         if (time.equals("12:00")){
             return 0;

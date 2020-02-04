@@ -7,9 +7,17 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
+/// @brief Klasa która ma na celu odczytanie pliku JSON
+///
+/// Dane składowe:
+/// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.java
+/// private String jsonString = null;
+/// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/// *jsonString* - zapisany JSON jako String
 public class MovieDto {
     private String jsonString = null;
 
+    /// Konstruktor klasy **MovieDto**.
     public MovieDto(){
         JSONParser parser = new JSONParser();
 
@@ -24,6 +32,7 @@ public class MovieDto {
         catch(Exception e){e.printStackTrace();}
     }
 
+    /// @return Zwraca obiekt String jako repertuar filmów jako plik JSON
     public String getFilms() {
         return jsonString;
     }

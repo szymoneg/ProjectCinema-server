@@ -1,0 +1,98 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\babel@toc {polish}{}
+\contentsline {chapter}{\numberline {1}Indeks przestrzeni nazw}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Pakiety}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Indeks klas}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Lista klas}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Indeks plików}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Lista plików}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Dokumentacja przestrzeni nazw}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Pakiet com}{7}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Pakiet com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cinema}{7}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Pakiet com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cinema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}controler}{7}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Pakiet com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cinema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}domain}{8}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Pakiet com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cinema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}domain.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}dto}{8}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Pakiet com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cinema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}rest}{8}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Dokumentacja klas}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Dokumentacja klasy com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cinema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}controler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bill\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controler}{9}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Opis szczegółowy}{9}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}Dokumentacja klasy com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cinema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}rest.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cinema\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}A\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controler}{9}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Dokumentacja klasy com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cinema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cinema\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Server\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Application}{9}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Opis szczegółowy}{9}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Dokumentacja funkcji składowych}{10}{subsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.2.1}main()}{10}{subsubsection.5.3.2.1}%
+\contentsline {section}{\numberline {5.4}Dokumentacja klasy com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cinema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}controler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Config\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controler}{10}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Opis szczegółowy}{10}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Dokumentacja funkcji składowych}{10}{subsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.2.1}showMovie()}{10}{subsubsection.5.4.2.1}%
+\contentsline {section}{\numberline {5.5}Dokumentacja klasy com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cinema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}domain.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}dto.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Config\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dto}{10}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Opis szczegółowy}{11}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Dokumentacja konstruktora i destruktora}{11}{subsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.2.1}ConfigDto()}{11}{subsubsection.5.5.2.1}%
+\contentsline {subsection}{\numberline {5.5.3}Dokumentacja funkcji składowych}{11}{subsection.5.5.3}%
+\contentsline {subsubsection}{\numberline {5.5.3.1}getConfig()}{11}{subsubsection.5.5.3.1}%
+\contentsline {section}{\numberline {5.6}Dokumentacja klasy com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cinema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}controler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Download\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller}{11}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Opis szczegółowy}{12}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Dokumentacja funkcji składowych}{12}{subsection.5.6.2}%
+\contentsline {subsubsection}{\numberline {5.6.2.1}downloader()}{12}{subsubsection.5.6.2.1}%
+\contentsline {section}{\numberline {5.7}Dokumentacja klasy com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cinema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}controler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bill\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Download\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller}{12}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Opis szczegółowy}{12}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}Dokumentacja funkcji składowych}{12}{subsection.5.7.2}%
+\contentsline {subsubsection}{\numberline {5.7.2.1}downloader()}{13}{subsubsection.5.7.2.1}%
+\contentsline {section}{\numberline {5.8}Dokumentacja klasy com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cinema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}controler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Movie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controler}{14}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}Opis szczegółowy}{14}{subsection.5.8.1}%
+\contentsline {subsection}{\numberline {5.8.2}Dokumentacja funkcji składowych}{14}{subsection.5.8.2}%
+\contentsline {subsubsection}{\numberline {5.8.2.1}showMovie()}{14}{subsubsection.5.8.2.1}%
+\contentsline {section}{\numberline {5.9}Dokumentacja klasy com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cinema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}domain.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}dto.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Movie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dto}{14}{section.5.9}%
+\contentsline {subsection}{\numberline {5.9.1}Opis szczegółowy}{15}{subsection.5.9.1}%
+\contentsline {subsection}{\numberline {5.9.2}Dokumentacja konstruktora i destruktora}{15}{subsection.5.9.2}%
+\contentsline {subsubsection}{\numberline {5.9.2.1}MovieDto()}{15}{subsubsection.5.9.2.1}%
+\contentsline {subsection}{\numberline {5.9.3}Dokumentacja funkcji składowych}{15}{subsection.5.9.3}%
+\contentsline {subsubsection}{\numberline {5.9.3.1}getFilms()}{15}{subsubsection.5.9.3.1}%
+\contentsline {section}{\numberline {5.10}Dokumentacja klasy com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cinema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}controler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reservation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controler}{15}{section.5.10}%
+\contentsline {subsection}{\numberline {5.10.1}Opis szczegółowy}{15}{subsection.5.10.1}%
+\contentsline {subsection}{\numberline {5.10.2}Dokumentacja funkcji składowych}{16}{subsection.5.10.2}%
+\contentsline {subsubsection}{\numberline {5.10.2.1}addReservation()}{16}{subsubsection.5.10.2.1}%
+\contentsline {subsubsection}{\numberline {5.10.2.2}timeMovie()}{16}{subsubsection.5.10.2.2}%
+\contentsline {section}{\numberline {5.11}Dokumentacja klasy com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cinema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}domain.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}dto.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reservation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dto}{16}{section.5.11}%
+\contentsline {subsection}{\numberline {5.11.1}Opis szczegółowy}{17}{subsection.5.11.1}%
+\contentsline {subsection}{\numberline {5.11.2}Dokumentacja konstruktora i destruktora}{17}{subsection.5.11.2}%
+\contentsline {subsubsection}{\numberline {5.11.2.1}ReservationDto()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{17}{subsubsection.5.11.2.1}%
+\contentsline {subsubsection}{\numberline {5.11.2.2}ReservationDto()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{17}{subsubsection.5.11.2.2}%
+\contentsline {subsection}{\numberline {5.11.3}Dokumentacja funkcji składowych}{17}{subsection.5.11.3}%
+\contentsline {subsubsection}{\numberline {5.11.3.1}getEmail()}{17}{subsubsection.5.11.3.1}%
+\contentsline {subsubsection}{\numberline {5.11.3.2}getId()}{18}{subsubsection.5.11.3.2}%
+\contentsline {subsubsection}{\numberline {5.11.3.3}getName()}{18}{subsubsection.5.11.3.3}%
+\contentsline {subsubsection}{\numberline {5.11.3.4}getPrice()}{18}{subsubsection.5.11.3.4}%
+\contentsline {subsubsection}{\numberline {5.11.3.5}getStandardSeats()}{18}{subsubsection.5.11.3.5}%
+\contentsline {subsubsection}{\numberline {5.11.3.6}getSurname()}{18}{subsubsection.5.11.3.6}%
+\contentsline {subsubsection}{\numberline {5.11.3.7}getTime()}{19}{subsubsection.5.11.3.7}%
+\contentsline {subsubsection}{\numberline {5.11.3.8}getVipSeats()}{19}{subsubsection.5.11.3.8}%
+\contentsline {subsubsection}{\numberline {5.11.3.9}setEmail()}{19}{subsubsection.5.11.3.9}%
+\contentsline {subsubsection}{\numberline {5.11.3.10}setId()}{19}{subsubsection.5.11.3.10}%
+\contentsline {subsubsection}{\numberline {5.11.3.11}setName()}{20}{subsubsection.5.11.3.11}%
+\contentsline {subsubsection}{\numberline {5.11.3.12}setPrice()}{20}{subsubsection.5.11.3.12}%
+\contentsline {subsubsection}{\numberline {5.11.3.13}setStandardSeats()}{20}{subsubsection.5.11.3.13}%
+\contentsline {subsubsection}{\numberline {5.11.3.14}setSurname()}{20}{subsubsection.5.11.3.14}%
+\contentsline {subsubsection}{\numberline {5.11.3.15}setTime()}{21}{subsubsection.5.11.3.15}%
+\contentsline {subsubsection}{\numberline {5.11.3.16}setVipSeats()}{21}{subsubsection.5.11.3.16}%
+\contentsline {section}{\numberline {5.12}Dokumentacja klasy com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cinema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}controler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Api\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controler}{21}{section.5.12}%
+\contentsline {subsection}{\numberline {5.12.1}Opis szczegółowy}{21}{subsection.5.12.1}%
+\contentsline {subsection}{\numberline {5.12.2}Dokumentacja funkcji składowych}{22}{subsection.5.12.2}%
+\contentsline {subsubsection}{\numberline {5.12.2.1}serverTest()}{22}{subsubsection.5.12.2.1}%
+\contentsline {section}{\numberline {5.13}Dokumentacja klasy com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cinema.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}controler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controler}{22}{section.5.13}%
+\contentsline {subsection}{\numberline {5.13.1}Opis szczegółowy}{22}{subsection.5.13.1}%
+\contentsline {chapter}{\numberline {6}Dokumentacja plików}{23}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Dokumentacja pliku src/main/java/com/cinema/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cinema\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Server\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Application.java}{23}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Dokumentacja pliku src/main/java/com/cinema/controler/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bill\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controler.java}{23}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Dokumentacja pliku src/main/java/com/cinema/controler/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Config\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controler.java}{23}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Dokumentacja pliku src/main/java/com/cinema/controler/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Movie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controler.java}{24}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Dokumentacja pliku src/main/java/com/cinema/controler/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reservation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controler.java}{24}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Dokumentacja pliku src/main/java/com/cinema/controler/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Api\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controler.java}{24}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Dokumentacja pliku src/main/java/com/cinema/controler/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controler.java}{25}{section.6.7}%
+\contentsline {section}{\numberline {6.8}Dokumentacja pliku src/main/java/com/cinema/domain/dto/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Config\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dto.java}{25}{section.6.8}%
+\contentsline {section}{\numberline {6.9}Dokumentacja pliku src/main/java/com/cinema/domain/dto/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Movie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dto.java}{25}{section.6.9}%
+\contentsline {section}{\numberline {6.10}Dokumentacja pliku src/main/java/com/cinema/domain/dto/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reservation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dto.java}{25}{section.6.10}%
+\contentsline {section}{\numberline {6.11}Dokumentacja pliku src/main/java/com/cinema/rest/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cinema\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}A\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controler.java}{26}{section.6.11}%
+\contentsline {section}{\numberline {6.12}Dokumentacja pliku src/test/java/com/cinema/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cinema\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Server\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Application\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests.java}{26}{section.6.12}%
+\contentsline {chapter}{Indeks}{27}{section*.44}%

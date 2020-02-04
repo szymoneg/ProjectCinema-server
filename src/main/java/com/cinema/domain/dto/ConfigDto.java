@@ -8,9 +8,17 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
+/// @brief Klasa która ma na celu odczytanie pliku JSON
+///
+/// Dane składowe:
+/// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.java
+/// private String jsonString = null;
+/// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/// *jsonString* - zapisany JSON jako String
 public class ConfigDto {
     private String jsonString = null;
 
+    /// Konstruktor klasy **ConfigDto**.
     public ConfigDto(){
         JSONParser parser = new JSONParser();
 
@@ -25,6 +33,8 @@ public class ConfigDto {
         catch(Exception e){e.printStackTrace();}
     }
 
+    /// Funkcja zwracająca treść pliku JSON
+    /// @return obiekt typu String z treścią pliku JSON
     public String getConfig() {
         return jsonString;
     }

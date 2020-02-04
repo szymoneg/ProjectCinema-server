@@ -12,10 +12,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- *   Klasa testujaca dzialanie serwera
- *
- */
+/// @brief Klasa umożliwiająca poprawne działanie serwera (uruchamianie go).
 @Controller
 public class TestApiControler {
     private static final Logger LOGGER = LoggerFactory.getLogger(TestApiControler.class);

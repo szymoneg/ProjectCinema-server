@@ -11,18 +11,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
-/**
- *   Klasa w której jest metoda zwracajaca obiekt klasy movieDto w którym znajduja sie dane
- *   dotyczace reperutuaru kina
- *
- */
-
+/// @brief Klasa odpowiedzialna za zwrócenie JSON "films.json"
+/// *EnableWebMvc* - zapewnia działanie serwera w czasie rzeczywistym
 @Controller
 @EnableWebMvc
 public class MovieControler {
     private static final Logger LOGGER = LoggerFactory.getLogger(MovieControler.class);
     @CrossOrigin
     @RequestMapping(value = "/show",method = RequestMethod.GET, produces={"application/json; charset=UTF-8"})
+    /// @return  lista obiektów String z zawartościa filmów
     public ResponseEntity<String> showMovie() {
         LOGGER.info("Działa metoda show");
 

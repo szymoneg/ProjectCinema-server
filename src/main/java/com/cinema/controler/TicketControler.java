@@ -15,22 +15,23 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-/**
-*   Klasa odpowiedzialna za mozliwość pobrania biletu z serwera
-*
- */
-
+/// @brief Klasa umożliwia pobieranie biletu z serwera
 @RestController
 public class TicketControler {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(TicketControler.class);
 
+    /// @brief Klasa umożliwia pobieranie biletu z serwera
     @Controller
     @RequestMapping("/download")
     public class DownloadController {
         @Autowired
         ServletContext context;
 
+        /// Funkcja pobierająca bilet z serwera
+        /// @param request - link za pomocą którego odbywa się mapowanie
+        /// @param response - pobiera dane z biletu
+        /// @param fileName - nazwa pliku
         @RequestMapping("/pdf/{fileName:.+}")
         public void downloader(HttpServletRequest request, HttpServletResponse response,
                                @PathVariable("fileName") String fileName) {

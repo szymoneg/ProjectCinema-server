@@ -1,0 +1,159 @@
+\begin{theindex}
+
+  \item {addReservation}
+    \subitem {com.cinema.controler.ReservationControler}, 
+		\hyperpage{16}
+
+  \indexspace
+
+  \item {com}, \hyperpage{7}
+  \item {com.cinema}, \hyperpage{7}
+  \item {com.cinema.CinemaServerApplication}, \hyperpage{9}
+    \subitem {main}, \hyperpage{10}
+  \item {com.cinema.controler}, \hyperpage{7}
+  \item {com.cinema.controler.BillControler}, \hyperpage{9}
+  \item {com.cinema.controler.BillControler.DownloadController}, 
+		\hyperpage{12}
+    \subitem {downloader}, \hyperpage{12}
+  \item {com.cinema.controler.ConfigControler}, \hyperpage{10}
+    \subitem {showMovie}, \hyperpage{10}
+  \item {com.cinema.controler.MovieControler}, \hyperpage{14}
+    \subitem {showMovie}, \hyperpage{14}
+  \item {com.cinema.controler.ReservationControler}, \hyperpage{15}
+    \subitem {addReservation}, \hyperpage{16}
+    \subitem {timeMovie}, \hyperpage{16}
+  \item {com.cinema.controler.TestApiControler}, \hyperpage{21}
+    \subitem {serverTest}, \hyperpage{22}
+  \item {com.cinema.controler.TicketControler}, \hyperpage{22}
+  \item {com.cinema.controler.TicketControler.DownloadController}, 
+		\hyperpage{11}
+    \subitem {downloader}, \hyperpage{12}
+  \item {com.cinema.domain}, \hyperpage{8}
+  \item {com.cinema.domain.dto}, \hyperpage{8}
+  \item {com.cinema.domain.dto.ConfigDto}, \hyperpage{10}
+    \subitem {ConfigDto}, \hyperpage{11}
+    \subitem {getConfig}, \hyperpage{11}
+  \item {com.cinema.domain.dto.MovieDto}, \hyperpage{14}
+    \subitem {getFilms}, \hyperpage{15}
+    \subitem {MovieDto}, \hyperpage{15}
+  \item {com.cinema.domain.dto.ReservationDto}, \hyperpage{16}
+    \subitem {getEmail}, \hyperpage{17}
+    \subitem {getId}, \hyperpage{17}
+    \subitem {getName}, \hyperpage{18}
+    \subitem {getPrice}, \hyperpage{18}
+    \subitem {getStandardSeats}, \hyperpage{18}
+    \subitem {getSurname}, \hyperpage{18}
+    \subitem {getTime}, \hyperpage{18}
+    \subitem {getVipSeats}, \hyperpage{19}
+    \subitem {ReservationDto}, \hyperpage{17}
+    \subitem {setEmail}, \hyperpage{19}
+    \subitem {setId}, \hyperpage{19}
+    \subitem {setName}, \hyperpage{19}
+    \subitem {setPrice}, \hyperpage{20}
+    \subitem {setStandardSeats}, \hyperpage{20}
+    \subitem {setSurname}, \hyperpage{20}
+    \subitem {setTime}, \hyperpage{21}
+    \subitem {setVipSeats}, \hyperpage{21}
+  \item {com.cinema.rest}, \hyperpage{8}
+  \item {com.cinema.rest.CinemaAPIControler}, \hyperpage{9}
+  \item {ConfigDto}
+    \subitem {com.cinema.domain.dto.ConfigDto}, \hyperpage{11}
+
+  \indexspace
+
+  \item {downloader}
+    \subitem {com.cinema.controler.BillControler.DownloadController}, 
+		\hyperpage{12}
+    \subitem {com.cinema.controler.TicketControler.DownloadController}, 
+		\hyperpage{12}
+
+  \indexspace
+
+  \item {getConfig}
+    \subitem {com.cinema.domain.dto.ConfigDto}, \hyperpage{11}
+  \item {getEmail}
+    \subitem {com.cinema.domain.dto.ReservationDto}, \hyperpage{17}
+  \item {getFilms}
+    \subitem {com.cinema.domain.dto.MovieDto}, \hyperpage{15}
+  \item {getId}
+    \subitem {com.cinema.domain.dto.ReservationDto}, \hyperpage{17}
+  \item {getName}
+    \subitem {com.cinema.domain.dto.ReservationDto}, \hyperpage{18}
+  \item {getPrice}
+    \subitem {com.cinema.domain.dto.ReservationDto}, \hyperpage{18}
+  \item {getStandardSeats}
+    \subitem {com.cinema.domain.dto.ReservationDto}, \hyperpage{18}
+  \item {getSurname}
+    \subitem {com.cinema.domain.dto.ReservationDto}, \hyperpage{18}
+  \item {getTime}
+    \subitem {com.cinema.domain.dto.ReservationDto}, \hyperpage{18}
+  \item {getVipSeats}
+    \subitem {com.cinema.domain.dto.ReservationDto}, \hyperpage{19}
+
+  \indexspace
+
+  \item {main}
+    \subitem {com.cinema.CinemaServerApplication}, \hyperpage{10}
+  \item {MovieDto}
+    \subitem {com.cinema.domain.dto.MovieDto}, \hyperpage{15}
+
+  \indexspace
+
+  \item {ReservationDto}
+    \subitem {com.cinema.domain.dto.ReservationDto}, \hyperpage{17}
+
+  \indexspace
+
+  \item {serverTest}
+    \subitem {com.cinema.controler.TestApiControler}, \hyperpage{22}
+  \item {setEmail}
+    \subitem {com.cinema.domain.dto.ReservationDto}, \hyperpage{19}
+  \item {setId}
+    \subitem {com.cinema.domain.dto.ReservationDto}, \hyperpage{19}
+  \item {setName}
+    \subitem {com.cinema.domain.dto.ReservationDto}, \hyperpage{19}
+  \item {setPrice}
+    \subitem {com.cinema.domain.dto.ReservationDto}, \hyperpage{20}
+  \item {setStandardSeats}
+    \subitem {com.cinema.domain.dto.ReservationDto}, \hyperpage{20}
+  \item {setSurname}
+    \subitem {com.cinema.domain.dto.ReservationDto}, \hyperpage{20}
+  \item {setTime}
+    \subitem {com.cinema.domain.dto.ReservationDto}, \hyperpage{21}
+  \item {setVipSeats}
+    \subitem {com.cinema.domain.dto.ReservationDto}, \hyperpage{21}
+  \item {showMovie}
+    \subitem {com.cinema.controler.ConfigControler}, \hyperpage{10}
+    \subitem {com.cinema.controler.MovieControler}, \hyperpage{14}
+  \item {src/main/java/com/cinema/CinemaServerApplication.java}, 
+		\hyperpage{23}
+  \item {src/main/java/com/cinema/controler/BillControler.java}, 
+		\hyperpage{23}
+  \item {src/main/java/com/cinema/controler/ConfigControler.java}, 
+		\hyperpage{23}
+  \item {src/main/java/com/cinema/controler/MovieControler.java}, 
+		\hyperpage{24}
+  \item {src/main/java/com/cinema/controler/ReservationControler.java}, 
+		\hyperpage{24}
+  \item {src/main/java/com/cinema/controler/TestApiControler.java}, 
+		\hyperpage{24}
+  \item {src/main/java/com/cinema/controler/TicketControler.java}, 
+		\hyperpage{25}
+  \item {src/main/java/com/cinema/domain/dto/ConfigDto.java}, 
+		\hyperpage{25}
+  \item {src/main/java/com/cinema/domain/dto/MovieDto.java}, 
+		\hyperpage{25}
+  \item {src/main/java/com/cinema/domain/dto/ReservationDto.java}, 
+		\hyperpage{25}
+  \item {src/main/java/com/cinema/rest/CinemaAPIControler.java}, 
+		\hyperpage{26}
+  \item {src/test/java/com/cinema/CinemaServerApplicationTests.java}, 
+		\hyperpage{26}
+
+  \indexspace
+
+  \item {timeMovie}
+    \subitem {com.cinema.controler.ReservationControler}, 
+		\hyperpage{16}
+
+\end{theindex}

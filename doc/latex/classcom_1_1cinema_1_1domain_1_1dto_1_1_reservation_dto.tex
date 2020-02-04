@@ -1,0 +1,237 @@
+\hypertarget{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto}{}\doxysection{Dokumentacja klasy com.\+cinema.\+domain.\+dto.\+Reservation\+Dto}
+\label{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto}\index{com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_af5e6faafbc5d74631553334cc5a01279}{Reservation\+Dto}} ()
+\item 
+\mbox{\hyperlink{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a3ccc821412b59b8567752418df8458de}{Reservation\+Dto}} (int id, int price, Array\+List$<$ String $>$ standard\+Seats, Array\+List$<$ String $>$ vip\+Seats, String name, String surname, String email, String time)
+\item 
+int \mbox{\hyperlink{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a865ae8669360d87db6cb72457e99c9ac}{get\+Id}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a9dac7f9feaa7f53518556afb34bc9e93}{set\+Id}} (int id)
+\item 
+int \mbox{\hyperlink{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_aae7bc5741e6a777e90f3238cc1327f4b}{get\+Price}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a0fd87078a092bb7c9c43fba458e24da3}{set\+Price}} (int price)
+\item 
+Array\+List$<$ String $>$ \mbox{\hyperlink{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_ad6bf4f33649701a6603d35edbceac10e}{get\+Standard\+Seats}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_aec403f726a753513a6f006bd6384a917}{set\+Standard\+Seats}} (Array\+List$<$ String $>$ standard\+Seats)
+\item 
+Array\+List$<$ String $>$ \mbox{\hyperlink{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_aa6418b84e7eb7aa52d6f8832fb1e8785}{get\+Vip\+Seats}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_af0a07a756f07e7d6cabf6cf9938a26dd}{set\+Vip\+Seats}} (Array\+List$<$ String $>$ vip\+Seats)
+\item 
+String \mbox{\hyperlink{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_ae4ace50ba32f0d8d66a9563359636422}{get\+Name}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a1a3b7e6bb49d66e72ba997650648943c}{set\+Name}} (String name)
+\item 
+String \mbox{\hyperlink{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a31fd0e7cd6a15968d4b6615c8e855393}{get\+Surname}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_ae75671f0c834a2256cb7db52b8ce4f90}{set\+Surname}} (String surname)
+\item 
+String \mbox{\hyperlink{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a216c7c1681d7828b62d8326d5d053e6e}{get\+Email}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_afd20b202ccbaf464ca84e37bf474c778}{set\+Email}} (String email)
+\item 
+String \mbox{\hyperlink{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a0232c1e6a4345d57ae64d14a2c912753}{get\+Time}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a910d532459d1650ab0b32aa28867a800}{set\+Time}} (String time)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa przechowująca dane użytkowników dokonujących rezerwacje
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{private} \textcolor{keywordtype}{int} id;}
+\DoxyCodeLine{\textcolor{keyword}{private} \textcolor{keywordtype}{int} price;}
+\DoxyCodeLine{\textcolor{keyword}{private} ArrayList<String> standardSeats;}
+\DoxyCodeLine{\textcolor{keyword}{private} ArrayList<String> vipSeats;}
+\DoxyCodeLine{\textcolor{keyword}{private} String name;}
+\DoxyCodeLine{\textcolor{keyword}{private} String surname;}
+\DoxyCodeLine{\textcolor{keyword}{private} String email;}
+\DoxyCodeLine{\textcolor{keyword}{private} String time;}
+\end{DoxyCode}
+
+
+{\itshape id} -\/ unikalny identyfikator filmu {\itshape price} -\/ cena łączna całego zamówienia {\itshape standard\+Seats} -\/ lista miejsc typu standard {\itshape vip\+Seats} -\/ lista miejsc typu V\+IP {\itshape name} -\/ imię użytkownika {\itshape surname} -\/ nazwisko użytkownika {\itshape email} -\/ email użytkownika {\itshape time} -\/ godzina emisi filmu 
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_af5e6faafbc5d74631553334cc5a01279}\label{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_af5e6faafbc5d74631553334cc5a01279}} 
+\index{com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}!ReservationDto@{ReservationDto}}
+\index{ReservationDto@{ReservationDto}!com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}}
+\doxysubsubsection{\texorpdfstring{ReservationDto()}{ReservationDto()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily com.\+cinema.\+domain.\+dto.\+Reservation\+Dto.\+Reservation\+Dto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a3ccc821412b59b8567752418df8458de}\label{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a3ccc821412b59b8567752418df8458de}} 
+\index{com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}!ReservationDto@{ReservationDto}}
+\index{ReservationDto@{ReservationDto}!com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}}
+\doxysubsubsection{\texorpdfstring{ReservationDto()}{ReservationDto()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily com.\+cinema.\+domain.\+dto.\+Reservation\+Dto.\+Reservation\+Dto (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{int}]{price,  }\item[{Array\+List$<$ String $>$}]{standard\+Seats,  }\item[{Array\+List$<$ String $>$}]{vip\+Seats,  }\item[{String}]{name,  }\item[{String}]{surname,  }\item[{String}]{email,  }\item[{String}]{time }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a216c7c1681d7828b62d8326d5d053e6e}\label{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a216c7c1681d7828b62d8326d5d053e6e}} 
+\index{com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}!getEmail@{getEmail}}
+\index{getEmail@{getEmail}!com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}}
+\doxysubsubsection{\texorpdfstring{getEmail()}{getEmail()}}
+{\footnotesize\ttfamily String com.\+cinema.\+domain.\+dto.\+Reservation\+Dto.\+get\+Email (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Zwraca}
+email użytkownika 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a865ae8669360d87db6cb72457e99c9ac}\label{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a865ae8669360d87db6cb72457e99c9ac}} 
+\index{com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}!getId@{getId}}
+\index{getId@{getId}!com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily int com.\+cinema.\+domain.\+dto.\+Reservation\+Dto.\+get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Zwraca}
+unikalny identyfikator filmu 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_ae4ace50ba32f0d8d66a9563359636422}\label{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_ae4ace50ba32f0d8d66a9563359636422}} 
+\index{com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}!getName@{getName}}
+\index{getName@{getName}!com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String com.\+cinema.\+domain.\+dto.\+Reservation\+Dto.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Zwraca}
+imię użytkownika 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_aae7bc5741e6a777e90f3238cc1327f4b}\label{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_aae7bc5741e6a777e90f3238cc1327f4b}} 
+\index{com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}!getPrice@{getPrice}}
+\index{getPrice@{getPrice}!com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}}
+\doxysubsubsection{\texorpdfstring{getPrice()}{getPrice()}}
+{\footnotesize\ttfamily int com.\+cinema.\+domain.\+dto.\+Reservation\+Dto.\+get\+Price (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Zwraca}
+cenę biletu 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_ad6bf4f33649701a6603d35edbceac10e}\label{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_ad6bf4f33649701a6603d35edbceac10e}} 
+\index{com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}!getStandardSeats@{getStandardSeats}}
+\index{getStandardSeats@{getStandardSeats}!com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}}
+\doxysubsubsection{\texorpdfstring{getStandardSeats()}{getStandardSeats()}}
+{\footnotesize\ttfamily Array\+List$<$String$>$ com.\+cinema.\+domain.\+dto.\+Reservation\+Dto.\+get\+Standard\+Seats (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Zwraca}
+listę miejsc standardowych 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a31fd0e7cd6a15968d4b6615c8e855393}\label{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a31fd0e7cd6a15968d4b6615c8e855393}} 
+\index{com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}!getSurname@{getSurname}}
+\index{getSurname@{getSurname}!com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}}
+\doxysubsubsection{\texorpdfstring{getSurname()}{getSurname()}}
+{\footnotesize\ttfamily String com.\+cinema.\+domain.\+dto.\+Reservation\+Dto.\+get\+Surname (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Zwraca}
+nazwisko użytkownika 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a0232c1e6a4345d57ae64d14a2c912753}\label{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a0232c1e6a4345d57ae64d14a2c912753}} 
+\index{com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}!getTime@{getTime}}
+\index{getTime@{getTime}!com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}}
+\doxysubsubsection{\texorpdfstring{getTime()}{getTime()}}
+{\footnotesize\ttfamily String com.\+cinema.\+domain.\+dto.\+Reservation\+Dto.\+get\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Zwraca}
+godzina filmu 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_aa6418b84e7eb7aa52d6f8832fb1e8785}\label{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_aa6418b84e7eb7aa52d6f8832fb1e8785}} 
+\index{com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}!getVipSeats@{getVipSeats}}
+\index{getVipSeats@{getVipSeats}!com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}}
+\doxysubsubsection{\texorpdfstring{getVipSeats()}{getVipSeats()}}
+{\footnotesize\ttfamily Array\+List$<$String$>$ com.\+cinema.\+domain.\+dto.\+Reservation\+Dto.\+get\+Vip\+Seats (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Zwraca}
+listę miejsc V\+IP 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_afd20b202ccbaf464ca84e37bf474c778}\label{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_afd20b202ccbaf464ca84e37bf474c778}} 
+\index{com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}!setEmail@{setEmail}}
+\index{setEmail@{setEmail}!com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}}
+\doxysubsubsection{\texorpdfstring{setEmail()}{setEmail()}}
+{\footnotesize\ttfamily void com.\+cinema.\+domain.\+dto.\+Reservation\+Dto.\+set\+Email (\begin{DoxyParamCaption}\item[{String}]{email }\end{DoxyParamCaption})}
+
+Funkcja zmieniająca email użytkownia 
+\begin{DoxyParams}{Parametry}
+{\em email} & -\/ nowy email użytkownika \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a9dac7f9feaa7f53518556afb34bc9e93}\label{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a9dac7f9feaa7f53518556afb34bc9e93}} 
+\index{com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}!setId@{setId}}
+\index{setId@{setId}!com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}}
+\doxysubsubsection{\texorpdfstring{setId()}{setId()}}
+{\footnotesize\ttfamily void com.\+cinema.\+domain.\+dto.\+Reservation\+Dto.\+set\+Id (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+Funkcja zmieniająca identyfikator użytkownika 
+\begin{DoxyParams}{Parametry}
+{\em id} & -\/ nowy identyfikator \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a1a3b7e6bb49d66e72ba997650648943c}\label{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a1a3b7e6bb49d66e72ba997650648943c}} 
+\index{com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}!setName@{setName}}
+\index{setName@{setName}!com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}}
+\doxysubsubsection{\texorpdfstring{setName()}{setName()}}
+{\footnotesize\ttfamily void com.\+cinema.\+domain.\+dto.\+Reservation\+Dto.\+set\+Name (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})}
+
+Funkcja zmieniająca imię użytkownia 
+\begin{DoxyParams}{Parametry}
+{\em name} & -\/ nowe imię użytkownika \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a0fd87078a092bb7c9c43fba458e24da3}\label{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a0fd87078a092bb7c9c43fba458e24da3}} 
+\index{com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}!setPrice@{setPrice}}
+\index{setPrice@{setPrice}!com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}}
+\doxysubsubsection{\texorpdfstring{setPrice()}{setPrice()}}
+{\footnotesize\ttfamily void com.\+cinema.\+domain.\+dto.\+Reservation\+Dto.\+set\+Price (\begin{DoxyParamCaption}\item[{int}]{price }\end{DoxyParamCaption})}
+
+Funkcja zmieniająca cenę biletu 
+\begin{DoxyParams}{Parametry}
+{\em price} & -\/ nowa cena biletu \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_aec403f726a753513a6f006bd6384a917}\label{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_aec403f726a753513a6f006bd6384a917}} 
+\index{com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}!setStandardSeats@{setStandardSeats}}
+\index{setStandardSeats@{setStandardSeats}!com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}}
+\doxysubsubsection{\texorpdfstring{setStandardSeats()}{setStandardSeats()}}
+{\footnotesize\ttfamily void com.\+cinema.\+domain.\+dto.\+Reservation\+Dto.\+set\+Standard\+Seats (\begin{DoxyParamCaption}\item[{Array\+List$<$ String $>$}]{standard\+Seats }\end{DoxyParamCaption})}
+
+Funkcja zmieniająca tablice zarezerwowanych miejsc standardowych 
+\begin{DoxyParams}{Parametry}
+{\em standard\+Seats} & -\/ nowa lista zarezerwowanych miejsc standardowych \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_ae75671f0c834a2256cb7db52b8ce4f90}\label{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_ae75671f0c834a2256cb7db52b8ce4f90}} 
+\index{com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}!setSurname@{setSurname}}
+\index{setSurname@{setSurname}!com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}}
+\doxysubsubsection{\texorpdfstring{setSurname()}{setSurname()}}
+{\footnotesize\ttfamily void com.\+cinema.\+domain.\+dto.\+Reservation\+Dto.\+set\+Surname (\begin{DoxyParamCaption}\item[{String}]{surname }\end{DoxyParamCaption})}
+
+Funkcja zmieniająca nazwisko użytkownia 
+\begin{DoxyParams}{Parametry}
+{\em surname} & -\/ nowe nazwisko użytkownika \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a910d532459d1650ab0b32aa28867a800}\label{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_a910d532459d1650ab0b32aa28867a800}} 
+\index{com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}!setTime@{setTime}}
+\index{setTime@{setTime}!com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}}
+\doxysubsubsection{\texorpdfstring{setTime()}{setTime()}}
+{\footnotesize\ttfamily void com.\+cinema.\+domain.\+dto.\+Reservation\+Dto.\+set\+Time (\begin{DoxyParamCaption}\item[{String}]{time }\end{DoxyParamCaption})}
+
+Funkcja zmieniająca czas wyświetlanego filmu 
+\begin{DoxyParams}{Parametry}
+{\em time} & -\/ nowy czas wyświetlania filmu \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_af0a07a756f07e7d6cabf6cf9938a26dd}\label{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto_af0a07a756f07e7d6cabf6cf9938a26dd}} 
+\index{com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}!setVipSeats@{setVipSeats}}
+\index{setVipSeats@{setVipSeats}!com.cinema.domain.dto.ReservationDto@{com.cinema.domain.dto.ReservationDto}}
+\doxysubsubsection{\texorpdfstring{setVipSeats()}{setVipSeats()}}
+{\footnotesize\ttfamily void com.\+cinema.\+domain.\+dto.\+Reservation\+Dto.\+set\+Vip\+Seats (\begin{DoxyParamCaption}\item[{Array\+List$<$ String $>$}]{vip\+Seats }\end{DoxyParamCaption})}
+
+Funkcja zmieniająca tablice zarezerwowanych miejsc vip 
+\begin{DoxyParams}{Parametry}
+{\em vip\+Seats} & -\/ nowa lista zarezerwowanych miejsc vip \\
+\hline
+\end{DoxyParams}

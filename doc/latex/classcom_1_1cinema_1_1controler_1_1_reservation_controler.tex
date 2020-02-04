@@ -1,0 +1,46 @@
+\hypertarget{classcom_1_1cinema_1_1controler_1_1_reservation_controler}{}\doxysection{Dokumentacja klasy com.\+cinema.\+controler.\+Reservation\+Controler}
+\label{classcom_1_1cinema_1_1controler_1_1_reservation_controler}\index{com.cinema.controler.ReservationControler@{com.cinema.controler.ReservationControler}}
+
+
+Klasa tworząca nową rezerwację.  
+
+
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+Response\+Entity$<$ Void $>$ \mbox{\hyperlink{classcom_1_1cinema_1_1controler_1_1_reservation_controler_a7b940f2932e8c1e2f74ef2e6d24eb974}{add\+Reservation}} (@Request\+Body \mbox{\hyperlink{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto}{Reservation\+Dto}} reservation\+Dto)  throws I\+O\+Exception, Document\+Exception 
+\item 
+int \mbox{\hyperlink{classcom_1_1cinema_1_1controler_1_1_reservation_controler_a215ddf7a140aa93625dc847cc213480c}{time\+Movie}} (String time)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa tworząca nową rezerwację. 
+
+Dane składowe 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{ArrayList<ReservationDto> reservationDtos = \textcolor{keyword}{new} ArrayList<>();  \textcolor{comment}{// <-\/ lista przechowująca dane do rezerwacji}}
+\end{DoxyCode}
+ 
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{classcom_1_1cinema_1_1controler_1_1_reservation_controler_a7b940f2932e8c1e2f74ef2e6d24eb974}\label{classcom_1_1cinema_1_1controler_1_1_reservation_controler_a7b940f2932e8c1e2f74ef2e6d24eb974}} 
+\index{com.cinema.controler.ReservationControler@{com.cinema.controler.ReservationControler}!addReservation@{addReservation}}
+\index{addReservation@{addReservation}!com.cinema.controler.ReservationControler@{com.cinema.controler.ReservationControler}}
+\doxysubsubsection{\texorpdfstring{addReservation()}{addReservation()}}
+{\footnotesize\ttfamily Response\+Entity$<$Void$>$ com.\+cinema.\+controler.\+Reservation\+Controler.\+add\+Reservation (\begin{DoxyParamCaption}\item[{@Request\+Body \mbox{\hyperlink{classcom_1_1cinema_1_1domain_1_1dto_1_1_reservation_dto}{Reservation\+Dto}}}]{reservation\+Dto }\end{DoxyParamCaption}) throws I\+O\+Exception, Document\+Exception}
+
+Funkcja dodające rezerwację, tworzy rachunek, bilet, zmienia miejsca rezerwacji w pliku films.\+json 
+\begin{DoxyParams}{Parametry}
+{\em reservation\+Dto} & -\/ pola niezbędne do stworzenia nowej rezerwacji \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1cinema_1_1controler_1_1_reservation_controler_a215ddf7a140aa93625dc847cc213480c}\label{classcom_1_1cinema_1_1controler_1_1_reservation_controler_a215ddf7a140aa93625dc847cc213480c}} 
+\index{com.cinema.controler.ReservationControler@{com.cinema.controler.ReservationControler}!timeMovie@{timeMovie}}
+\index{timeMovie@{timeMovie}!com.cinema.controler.ReservationControler@{com.cinema.controler.ReservationControler}}
+\doxysubsubsection{\texorpdfstring{timeMovie()}{timeMovie()}}
+{\footnotesize\ttfamily int com.\+cinema.\+controler.\+Reservation\+Controler.\+time\+Movie (\begin{DoxyParamCaption}\item[{String}]{time }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Zwraca}
+zwraca wartość int w zależnośći od godziny wyświetlania filmu 
+\end{DoxyReturn}

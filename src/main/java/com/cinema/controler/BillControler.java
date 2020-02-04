@@ -16,22 +16,23 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-/**
- *   Klasa odpowiedzialna za mozliwość pobrania paragonu z serwera
- *
- */
-
+/// @brief Klasa umożliwia pobieranie rachunku z serwera
 @RestController
 public class BillControler {
     private static final Logger LOGGER = LoggerFactory.getLogger(TicketControler.class);
 
     //Kod jakiegoś ziomeczka z stacka
+    /// @brief Klasa umożliwia pobieranie rachunku z serweru
     @Controller
     @RequestMapping("/download")
     public class DownloadController {
         @Autowired
         ServletContext context;
 
+        /// Funkcja pobierająca bilet z serwera
+        /// @param request - link za pomocą którego odbywa się mapowanie
+        /// @param response - pobiera dane z biletu
+        /// @param fileName - nazwa pliku
         @RequestMapping("/bill/{fileName:.+}")
         public void downloader(HttpServletRequest request, HttpServletResponse response,
                                @PathVariable("fileName") String fileName) {
