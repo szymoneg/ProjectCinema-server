@@ -20,7 +20,7 @@ public class ConfigControler {
     public ResponseEntity<String> showMovie() {
 
         final ConfigDto configDto = new ConfigDto();
-
+        
         return new ResponseEntity<>(configDto.getConfig(), HttpStatus.OK);
     }
 }
