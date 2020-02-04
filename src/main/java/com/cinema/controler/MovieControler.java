@@ -9,9 +9,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 
 @Controller
+@EnableWebMvc
 public class MovieControler {
     private static final Logger LOGGER = LoggerFactory.getLogger(MovieControler.class);
     @CrossOrigin
