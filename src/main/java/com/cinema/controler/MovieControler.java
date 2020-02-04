@@ -17,7 +17,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 public class MovieControler {
     private static final Logger LOGGER = LoggerFactory.getLogger(MovieControler.class);
     @CrossOrigin
-    @RequestMapping(value = "/show",method = RequestMethod.GET)
+    @RequestMapping(value = "/show",method = RequestMethod.GET, produces={"application/json; charset=UTF-8"})
     public ResponseEntity<String> showMovie() {
         LOGGER.info("Działa metoda show");
 
