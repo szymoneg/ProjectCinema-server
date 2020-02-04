@@ -53,9 +53,9 @@ public class ReservationControler {
 
             JSONObject object = (JSONObject) new JSONParser().parse(reader);
             JSONArray films = (JSONArray) object.get("films");
-            JSONObject filmss = (JSONObject) films.get(0);
+            JSONObject filmss = (JSONObject) films.get(reservationDto.getId());
             JSONArray filmsID = (JSONArray) filmss.get("showing");
-            JSONObject filmsss = (JSONObject) filmsID.get(0);
+            JSONObject filmsss = (JSONObject) filmsID.get(timeMovie(reservationDto.getTime()));
             JSONArray filmsss1 = (JSONArray) filmsss.get("blocked");
             System.out.println(filmsss1);
 
@@ -78,5 +78,16 @@ public class ReservationControler {
         }
 
         return new ResponseEntity<>(HttpStatus.CREATED);
+    }
+
+    public int timeMovie(String time){
+        if (time.equals("12:00")){
+            return 0;
+        }else if(time.equals("18:00")){
+            return 1;
+        }else if(time.equals("21:00")){
+            return 2;
+        }
+        return 3;
     }
 }
