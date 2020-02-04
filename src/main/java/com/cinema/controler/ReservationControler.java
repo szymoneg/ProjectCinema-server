@@ -51,24 +51,24 @@ public class ReservationControler {
 
         try (Reader reader = new FileReader("./src/main/resources/json/films.json")) {
 
-            JSONObject jsonObject = (JSONObject) parser.parse(reader);
-
-            JSONArray slideContent = (JSONArray) jsonObject.get("films");
-            Iterator i = slideContent.listIterator(reservationDto.getId());
-            //System.out.print(reservationDto.getId());
-
-            JSONObject slide = (JSONObject) i.next();
-            String title = Long.toString((Long) slide.get("id"));
-            //System.out.println(title);
+            JSONObject object = (JSONObject) new JSONParser().parse(reader);
+            JSONArray films = (JSONArray) object.get("films");
+            JSONObject filmss = (JSONObject) films.get(reservationDto.getId());
+            JSONArray filmsID = (JSONArray) filmss.get("showing");
+            JSONObject filmsss = (JSONObject) filmsID.get(timeMovie(reservationDto.getTime()));
+            JSONArray filmsss1 = (JSONArray) filmsss.get("blocked");
+            System.out.println(filmsss1);
 
             //Zmiana wartosci w pliku films.json
-            slide.put("title","TEST");
-            System.out.print(slide.get("title"));
+            filmsss1.addAll(reservationDto.getStandardSeats());
+            filmsss1.addAll(reservationDto.getVipSeats());
+            System.out.print(filmsss1);
 
+            //JSONObject data = (JSONObject) parser.parse(reader);
             //Nadpisywanie
             @SuppressWarnings("resource")
             FileWriter file = new FileWriter("./src/main/resources/json/films.json");
-            file.write(jsonObject.toJSONString());
+            file.write(object.toJSONString());
             file.flush();
 
         } catch (IOException e) {
@@ -78,5 +78,16 @@ public class ReservationControler {
         }
 
         return new ResponseEntity<>(HttpStatus.CREATED);
+    }
+
+    public int timeMovie(String time){
+        if (time.equals("12:00")){
+            return 0;
+        }else if(time.equals("18:00")){
+            return 1;
+        }else if(time.equals("21:00")){
+            return 2;
+        }
+        return 3;
     }
 }
