@@ -29,15 +29,29 @@ public class ReservationControler {
     ArrayList<ReservationDto> reservationDtos = new ArrayList<>();
 
     @CrossOrigin
-    @RequestMapping(value = "/reservation",method = RequestMethod.POST)
+    @RequestMapping(value = "/reservation",method = RequestMethod.POST,produces={"application/json; charset=UTF-8"})
     public ResponseEntity<Void> addReservation(@RequestBody ReservationDto reservationDto) throws IOException, DocumentException {
         Document document = new Document();
+        Document bill = new Document();
 
         reservationDtos.add(reservationDto);
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.writeValue(new File("./src/main/resources/json/reservations.json"),reservationDtos);
 
+        PdfWriter writerBill = PdfWriter.getInstance(bill,new FileOutputStream("./src/main/webapp/WEB-INF/bills/"+reservationDto.getName()+"B.pdf"));
         PdfWriter writer = PdfWriter.getInstance(document,new FileOutputStream("./src/main/webapp/WEB-INF/downloads/"+reservationDto.getName()+"H.pdf"));
+
+        int cena = (10*reservationDto.getStandardSeats().size())+(25*reservationDto.getVipSeats().size());
+
+        //BillGenerator
+        bill.open();
+        bill.add(new Paragraph("Cena: "+cena));
+        bill.add(new Paragraph("Ilość miejsc standard: "+reservationDto.getStandardSeats().size()));
+        bill.add(new Paragraph("Ilość miejsc VIP: "+reservationDto.getVipSeats().size()));
+        bill.close();
+        writerBill.close();
+
+        //TicketGenerator
         document.open();
         document.add(new Paragraph("Imie: "+reservationDto.getName()));
         document.add(new Paragraph("Nazwisko: "+reservationDto.getSurname()));
@@ -46,8 +60,6 @@ public class ReservationControler {
         document.add(new Paragraph("Godzina: "+reservationDto.getTime()));
         document.close();
         writer.close();
-
-        JSONParser parser = new JSONParser();
 
         try (Reader reader = new FileReader("./src/main/resources/json/films.json")) {
 
