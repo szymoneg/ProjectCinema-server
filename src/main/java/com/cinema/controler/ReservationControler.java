@@ -23,21 +23,25 @@ import java.util.ArrayList;
 @Controller
 public class ReservationControler {
     ArrayList<ReservationDto> reservationDtos = new ArrayList<>();
-    Document document = new Document();
 
     @CrossOrigin
     @RequestMapping(value = "/reservation",method = RequestMethod.POST)
     public ResponseEntity<Void> addReservation(@RequestBody ReservationDto reservationDto) throws IOException, DocumentException {
+        Document document = new Document();
+
         reservationDtos.add(reservationDto);
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.writeValue(new File("./src/main/resources/json/reservations.json"),reservationDtos);
-        PdfWriter writer = PdfWriter.getInstance(document,new FileOutputStream("Hello1.pdf"));
+
+        PdfWriter writer = PdfWriter.getInstance(document,new FileOutputStream("./src/main/webapp/WEB-INF/downloads/"+reservationDto.getName()+"H.pdf"));
         document.open();
-        document.add(new Paragraph("Hello"+reservationDto.getName()));
+        document.add(new Paragraph("Imie: "+reservationDto.getName()));
+        document.add(new Paragraph("Nazwisko: "+reservationDto.getSurname()));
+        document.add(new Paragraph("Miejsca/e: "+reservationDto.getStandardSeats()+" Vip: "+reservationDto.getVipSeats()));
+        document.add(new Paragraph("Film: "+reservationDto.getId()));
+        document.add(new Paragraph("Godzina: "+reservationDto.getTime()));
         document.close();
         writer.close();
-
-
 
         return new ResponseEntity<>(HttpStatus.CREATED);
     }
