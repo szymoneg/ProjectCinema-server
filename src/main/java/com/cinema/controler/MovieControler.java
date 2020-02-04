@@ -11,6 +11,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
+/**
+ *   Klasa w której jest metoda zwracajaca obiekt klasy movieDto w którym znajduja sie dane
+ *   dotyczace reperutuaru kina
+ *
+ */
 
 @Controller
 @EnableWebMvc

@@ -15,6 +15,11 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+/**
+*   Klasa odpowiedzialna za mozliwość pobrania biletu z serwera
+*
+ */
+
 @RestController
 public class TicketControler {
 

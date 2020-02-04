@@ -16,6 +16,11 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+/**
+ *   Klasa odpowiedzialna za mozliwość pobrania paragonu z serwera
+ *
+ */
+
 @RestController
 public class BillControler {
     private static final Logger LOGGER = LoggerFactory.getLogger(TicketControler.class);

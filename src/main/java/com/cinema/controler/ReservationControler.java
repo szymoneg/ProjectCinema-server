@@ -23,6 +23,16 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+/**
+ *   Klasa odpowiedzilna za tworzenie nowej rezerwacji
+ *   funkcojnalosc tej klasy polega:
+ *   -tworzenie nowej rezerwacji
+ *   -zapis rezerwacji do pliku JSON
+ *   -dodanie miejsc zajetych do pola w pliku films.json
+ *   -stworznie biletu oraz rachunku
+ *
+ */
+
 @Controller
 @EnableWebMvc
 public class ReservationControler {

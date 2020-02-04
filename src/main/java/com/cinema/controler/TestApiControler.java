@@ -12,6 +12,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ *   Klasa testujaca dzialanie serwera
+ *
+ */
 @Controller
 public class TestApiControler {
     private static final Logger LOGGER = LoggerFactory.getLogger(TestApiControler.class);
